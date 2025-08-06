@@ -46,7 +46,31 @@ The dataset was **extracted from the IMDB website using Selenium** and contains 
 4. Dropped invalid or missing rows for accurate results.
 
 ---
+## 🔄 Project Workflow
 
+Here's the step-by-step workflow followed in this project:
+
+1. **Data Extraction**  
+   - Collected movie data from IMDB using Selenium (for 23 genres).
+
+2. **Data Cleaning & Preprocessing**  
+   - Cleaned titles, ratings, voting counts, durations, and merged genres.
+   - Saved cleaned dataset as `imdb_2024_entire_cleaned_data.csv`.
+
+3. **Text Vectorization**  
+   - Used **TF-IDF** to convert movie storylines into numerical vectors.
+
+4. **Similarity Matching**  
+   - Compared input storyline with all movie vectors using **Cosine Similarity**.
+
+5. **Recommendation Output**  
+   - Displayed top 5 similar movies based on the input storyline.
+
+6. **Web Application**  
+   - Built a front-end using **Streamlit**, customized with **HTML/CSS**.
+   - Included filtering by Genre, Rating, Duration, and Movie Title.
+
+---
 ## 🧠 Recommendation Logic
 
 1. User enters a custom storyline.
