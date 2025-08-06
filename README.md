@@ -2,7 +2,7 @@
 
 This project is a **content-based movie recommendation system** that suggests movies to users based on the **storyline they enter**. It uses **Natural Language Processing (NLP)** techniques like **TF-IDF vectorization** and **Cosine Similarity** to find and display the most relevant movie matches from the IMDB database.
 
-> ✅ This project was developed as part of a course to demonstrate practical skills in data collection, processing, and machine learning-based recommendation systems.
+> ✅ This project was developed as part of a course to demonstrate practical skills in data collection, processing, and similarity-based recommendation systems.
 
 ---
 
